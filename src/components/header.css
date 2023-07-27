@@ -13,9 +13,9 @@
 
 .search {
     text-align: center;
-    border-radius: 10px;
+    border-radius: 50px;
     width: 60%;
     max-width: 350px;
     height: 1.8rem;
-    border: red solid 1px;
+    border: blue solid 1px;
 }

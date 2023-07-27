@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Pokemon from "./components/Pokemon";
 import React, { useState, useEffect } from "react";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Pokemon data={pokemon} />
     </div>
   );
 }
